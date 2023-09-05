@@ -6,54 +6,119 @@
 	objectVersion = 56;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		3F8AE3222AA785A40091D95C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F8AE3212AA785A40091D95C /* AppDelegate.m */; };
+		3F8AE3252AA785A40091D95C /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F8AE3242AA785A40091D95C /* SceneDelegate.m */; };
+		3F8AE3282AA785A40091D95C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F8AE3272AA785A40091D95C /* ViewController.m */; };
+		3F8AE32B2AA785A40091D95C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F8AE3292AA785A40091D95C /* Main.storyboard */; };
+		3F8AE32D2AA785A50091D95C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F8AE32C2AA785A50091D95C /* Assets.xcassets */; };
+		3F8AE3302AA785A50091D95C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F8AE32E2AA785A50091D95C /* LaunchScreen.storyboard */; };
+		3F8AE3332AA785A50091D95C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F8AE3322AA785A50091D95C /* main.m */; };
+		6FD346AFF8862DD1952A2D15 /* libPods-demo-SDWebImage.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7307C308DF00D4524AF63096 /* libPods-demo-SDWebImage.a */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
-		3F8AE2FE2AA7838F0091D95C /* iOSFrameworks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSFrameworks.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F8AE31E2AA785A40091D95C /* demo-SDWebImage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "demo-SDWebImage.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F8AE3202AA785A40091D95C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3F8AE3212AA785A40091D95C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3F8AE3232AA785A40091D95C /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		3F8AE3242AA785A40091D95C /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		3F8AE3262AA785A40091D95C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3F8AE3272AA785A40091D95C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3F8AE32A2AA785A40091D95C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3F8AE32C2AA785A50091D95C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3F8AE32F2AA785A50091D95C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3F8AE3312AA785A50091D95C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F8AE3322AA785A50091D95C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7307C308DF00D4524AF63096 /* libPods-demo-SDWebImage.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-demo-SDWebImage.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		81059A470D5567D0A6404FF9 /* Pods-demo-SDWebImage.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-demo-SDWebImage.debug.xcconfig"; path = "Target Support Files/Pods-demo-SDWebImage/Pods-demo-SDWebImage.debug.xcconfig"; sourceTree = "<group>"; };
+		F7B7A1A143E4D8E1227B862B /* Pods-demo-SDWebImage.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-demo-SDWebImage.release.xcconfig"; path = "Target Support Files/Pods-demo-SDWebImage/Pods-demo-SDWebImage.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		3F8AE2FB2AA7838F0091D95C /* Frameworks */ = {
+		3F8AE31B2AA785A40091D95C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6FD346AFF8862DD1952A2D15 /* libPods-demo-SDWebImage.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		06BD74436104F307B87F0681 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				81059A470D5567D0A6404FF9 /* Pods-demo-SDWebImage.debug.xcconfig */,
+				F7B7A1A143E4D8E1227B862B /* Pods-demo-SDWebImage.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		27E384D3FF04E33050174CE1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7307C308DF00D4524AF63096 /* libPods-demo-SDWebImage.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		3F8AE2F52AA7838F0091D95C = {
 			isa = PBXGroup;
 			children = (
+				3F8AE31F2AA785A40091D95C /* demo-SDWebImage */,
 				3F8AE2FF2AA7838F0091D95C /* Products */,
+				06BD74436104F307B87F0681 /* Pods */,
+				27E384D3FF04E33050174CE1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		3F8AE2FF2AA7838F0091D95C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3F8AE2FE2AA7838F0091D95C /* iOSFrameworks.app */,
+				3F8AE31E2AA785A40091D95C /* demo-SDWebImage.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		3F8AE31F2AA785A40091D95C /* demo-SDWebImage */ = {
+			isa = PBXGroup;
+			children = (
+				3F8AE3202AA785A40091D95C /* AppDelegate.h */,
+				3F8AE3212AA785A40091D95C /* AppDelegate.m */,
+				3F8AE3232AA785A40091D95C /* SceneDelegate.h */,
+				3F8AE3242AA785A40091D95C /* SceneDelegate.m */,
+				3F8AE3262AA785A40091D95C /* ViewController.h */,
+				3F8AE3272AA785A40091D95C /* ViewController.m */,
+				3F8AE3292AA785A40091D95C /* Main.storyboard */,
+				3F8AE32C2AA785A50091D95C /* Assets.xcassets */,
+				3F8AE32E2AA785A50091D95C /* LaunchScreen.storyboard */,
+				3F8AE3312AA785A50091D95C /* Info.plist */,
+				3F8AE3322AA785A50091D95C /* main.m */,
+			);
+			path = "demo-SDWebImage";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		3F8AE2FD2AA7838F0091D95C /* iOSFrameworks */ = {
+		3F8AE31D2AA785A40091D95C /* demo-SDWebImage */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3F8AE3172AA7838F0091D95C /* Build configuration list for PBXNativeTarget "iOSFrameworks" */;
+			buildConfigurationList = 3F8AE3342AA785A50091D95C /* Build configuration list for PBXNativeTarget "demo-SDWebImage" */;
 			buildPhases = (
-				3F8AE2FA2AA7838F0091D95C /* Sources */,
-				3F8AE2FB2AA7838F0091D95C /* Frameworks */,
-				3F8AE2FC2AA7838F0091D95C /* Resources */,
+				AB509311BE03C238A44711AE /* [CP] Check Pods Manifest.lock */,
+				3F8AE31A2AA785A40091D95C /* Sources */,
+				3F8AE31B2AA785A40091D95C /* Frameworks */,
+				3F8AE31C2AA785A40091D95C /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = iOSFrameworks;
-			productName = iOSFrameworks;
-			productReference = 3F8AE2FE2AA7838F0091D95C /* iOSFrameworks.app */;
+			name = "demo-SDWebImage";
+			productName = "demo-SDWebImage";
+			productReference = 3F8AE31E2AA785A40091D95C /* demo-SDWebImage.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -65,7 +130,7 @@
 				BuildIndependentTargetsInParallel = 1;
 				LastUpgradeCheck = 1430;
 				TargetAttributes = {
-					3F8AE2FD2AA7838F0091D95C = {
+					3F8AE31D2AA785A40091D95C = {
 						CreatedOnToolsVersion = 14.3;
 					};
 				};
@@ -83,30 +148,81 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3F8AE2FD2AA7838F0091D95C /* iOSFrameworks */,
+				3F8AE31D2AA785A40091D95C /* demo-SDWebImage */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		3F8AE2FC2AA7838F0091D95C /* Resources */ = {
+		3F8AE31C2AA785A40091D95C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F8AE3302AA785A50091D95C /* LaunchScreen.storyboard in Resources */,
+				3F8AE32D2AA785A50091D95C /* Assets.xcassets in Resources */,
+				3F8AE32B2AA785A40091D95C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		AB509311BE03C238A44711AE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-demo-SDWebImage-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
-		3F8AE2FA2AA7838F0091D95C /* Sources */ = {
+		3F8AE31A2AA785A40091D95C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F8AE3282AA785A40091D95C /* ViewController.m in Sources */,
+				3F8AE3222AA785A40091D95C /* AppDelegate.m in Sources */,
+				3F8AE3332AA785A50091D95C /* main.m in Sources */,
+				3F8AE3252AA785A40091D95C /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3F8AE3292AA785A40091D95C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F8AE32A2AA785A40091D95C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3F8AE32E2AA785A50091D95C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F8AE32F2AA785A50091D95C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		3F8AE3152AA7838F0091D95C /* Debug */ = {
@@ -219,8 +335,9 @@
 			};
 			name = Release;
 		};
-		3F8AE3182AA7838F0091D95C /* Debug */ = {
+		3F8AE3352AA785A50091D95C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 81059A470D5567D0A6404FF9 /* Pods-demo-SDWebImage.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -228,7 +345,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 86JSFRSCH9;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = iOSFrameworks/Info.plist;
+				INFOPLIST_FILE = "demo-SDWebImage/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -239,15 +356,16 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.jayying.iOSFrameworks;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jayying.demo-SDWebImage";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		3F8AE3192AA7838F0091D95C /* Release */ = {
+		3F8AE3362AA785A50091D95C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7B7A1A143E4D8E1227B862B /* Pods-demo-SDWebImage.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -255,7 +373,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 86JSFRSCH9;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = iOSFrameworks/Info.plist;
+				INFOPLIST_FILE = "demo-SDWebImage/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -266,7 +384,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.jayying.iOSFrameworks;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jayying.demo-SDWebImage";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -285,11 +403,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3F8AE3172AA7838F0091D95C /* Build configuration list for PBXNativeTarget "iOSFrameworks" */ = {
+		3F8AE3342AA785A50091D95C /* Build configuration list for PBXNativeTarget "demo-SDWebImage" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3F8AE3182AA7838F0091D95C /* Debug */,
-				3F8AE3192AA7838F0091D95C /* Release */,
+				3F8AE3352AA785A50091D95C /* Debug */,
+				3F8AE3362AA785A50091D95C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
