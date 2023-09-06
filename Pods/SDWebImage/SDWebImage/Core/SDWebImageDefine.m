@@ -8,7 +8,6 @@
 
 #import "SDWebImageDefine.h"
 #import "UIImage+Metadata.h"
-#import "NSImage+Compatibility.h"
 #import "SDAnimatedImage.h"
 #import "SDAssociatedObject.h"
 

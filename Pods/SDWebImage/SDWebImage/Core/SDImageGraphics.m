@@ -7,7 +7,6 @@
  */
 
 #import "SDImageGraphics.h"
-#import "NSImage+Compatibility.h"
 #import "SDImageCoderHelper.h"
 #import "objc/runtime.h"
 

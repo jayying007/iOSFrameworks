@@ -7,7 +7,6 @@
 */
 
 #import "SDImageIOAnimatedCoder.h"
-#import "NSImage+Compatibility.h"
 #import "UIImage+Metadata.h"
 #import "NSData+ImageContentType.h"
 #import "SDImageCoderHelper.h"

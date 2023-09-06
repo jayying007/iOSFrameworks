@@ -7,7 +7,6 @@
  */
 
 #import "UIImage+Transform.h"
-#import "NSImage+Compatibility.h"
 #import "SDImageGraphics.h"
 #import "SDGraphicsImageRenderer.h"
 #import <Accelerate/Accelerate.h>
